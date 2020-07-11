@@ -35,15 +35,17 @@ def hit?(n)
   input = get_user_input
   if input == "h"
     card = deal_card
-    n = n + card 
+    n = n + card
+    return n 
   elsif input == "s"
     return n 
   else 
     invalid_command
+    prompt_user 
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
