@@ -41,8 +41,8 @@ def hit?(n)
     return n 
   else 
     invalid_command
-    prompt_user 
-    n
+    prompt_user
+    
   end 
 end
 
